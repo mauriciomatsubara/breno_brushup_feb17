@@ -17,6 +17,6 @@ int factorial(int n){
 }
 
 int main(int argc, const char * argv[]) {
-    cout << factorial(10) << "\n";
+    cout << factorial(110) << "\n";
     return 0;
 }
