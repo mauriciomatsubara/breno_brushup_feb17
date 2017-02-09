@@ -9,10 +9,14 @@
 #include <iostream>
 using namespace std;
 
+int factorial(int n){
+    if(n==1)
+        return 1;
+    else
+        return n * factorial(n-1);
+}
+
 int main(int argc, const char * argv[]) {
-    int a;
-    a=10;
-    
-    cout << a << "\n";
+    cout << factorial(10) << "\n";
     return 0;
 }
