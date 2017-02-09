@@ -13,6 +13,6 @@ int main(int argc, const char * argv[]) {
     int a;
     a=10;
     
-    cout << "Olá Mundo!\n";
+    cout << a << "\n";
     return 0;
 }
